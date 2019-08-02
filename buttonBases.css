@@ -1,0 +1,78 @@
+.buttonContainer{
+   display:flex;
+   width:95%;
+   margin:250px 50px 20px 50px;
+   padding:0px 10px 0px 10px;
+   position:absolute;
+}
+.image{
+   position:relative;
+   height:200px;
+   z-index:1;
+}
+.imageSrc{
+   left:0;
+   right:0;
+   top:0;
+   bottom:0;
+   background-size:cover;
+   background-position:center 40%;
+   position:absolute;
+}
+.imageButton{
+   position:absolute;
+   left:0;
+   right:0;
+   top:0;
+   bottom:0;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   color:white;
+}
+.imageBackdrop{
+   position:absolute;
+   left:0;
+   right:0;
+   top:0;
+   bottom:0;
+   background-color:black;
+   opacity:0.4;
+}
+.imageTitle{
+   position:relative;
+   padding:20px;
+}
+.image:hover .imageTitle{
+   border:4px solid white;
+}
+.image:hover .imageMarked{
+   opacity:0;
+}
+.image:hover .imageBackdrop{
+   opacity:0.15;
+}
+.imageMarked{
+   height: 3px;
+   width: 18px;
+   background-color: white;
+   position: absolute;
+   bottom: -2px;
+   left: calc(50% - 9px);
+}
+/*<span className="buttonBox" style={{border:'none'}}>
+                    <span className="imageSrc" style={{backgroundImage:'url(https://b3-q.mafengwo.net/s14/M00/5E/3F/wKgE2l0V5AiAVkwwAAZVr48WgsU116.JPG)'}}></span>
+                    <span className="imageButton">
+                       <Typography  component="span" variant="subtitle1"
+                         color="inherit"  className="imageTitle">
+                         栖霞山路线
+                          <span className="imageMarked"></span>
+                       </Typography>
+                    </span>
+                 </span>
+                 <span className="buttonBox" style={{border:'none'}}>
+                    <span className="imageSrc" style={{backgroundImage:'url(https://b2-q.mafengwo.net/s14/M00/56/EE/wKgE2l0V4WmANrLDAATtyaMcsUU91.jpeg)'}}></span>
+                 </span>
+                 <span className="buttonBox" style={{border:'none'}}>
+                    <span className="imageSrc" style={{backgroundImage:'url(https://n3-q.mafengwo.net/s14/M00/4B/A0/wKgE2l0UQ4OAalbtAAiCgG-rNKI832.jpg)'}}></span>
+                 </span>*/
